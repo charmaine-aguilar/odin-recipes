@@ -64,6 +64,12 @@ header p {
     border-radius: 8px;
     width: 400px;
     margin: 16px 32px;
+    transition: all .5s ease;
+}
+
+#food-image:hover, #food-recipes li:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+    transition: all .4s ease;
 }
 
 #food-image img {
