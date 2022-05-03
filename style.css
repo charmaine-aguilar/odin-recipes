@@ -67,7 +67,7 @@ header p {
     transition: all .5s ease;
 }
 
-#food-image:hover, #food-recipes li:hover {
+#food-recipes li:hover {
     transform: translate3D(0,-1px,0) scale(1.03);
     transition: all .4s ease;
 }
@@ -76,6 +76,8 @@ header p {
     border-radius: 8px 8px 0 0;
     height: 275px;
     width: 400px;
+    /* max-height: 100%; */
+    /* max-width: 100%; */
 }
 
 #food-image a {
