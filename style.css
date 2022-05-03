@@ -15,7 +15,7 @@ body {
 .hero {
     /* Sizing 5*/
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 210px);
     /* height: 100%; */
 
     /* Background */
