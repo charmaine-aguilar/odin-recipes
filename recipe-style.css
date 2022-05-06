@@ -1,0 +1,21 @@
+
+
+main {
+    border: 1px rgb(207, 207, 207) solid;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+    margin: 50px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border: 5px red solid;
+}
+
+main img {
+    max-width: 500px;
+    height: auto;
+}
+
