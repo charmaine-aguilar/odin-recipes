@@ -48,6 +48,7 @@ header p {
 #food-recipes li {
     background-color: white;
     box-shadow: 0 5px 15px #a0a0a0; /*x y shadow-diffuse color*/
+    border: 3px black solid;
     border-radius: 8px;
     width: 400px;
     margin: 32px 32px;
@@ -61,7 +62,7 @@ header p {
 }
 
 #food-image img {
-    border-radius: 8px 8px 0 0;
+    border-radius: 3px 3px 0 0;
     height: 275px;
     width: 400px;
 }
