@@ -1,5 +1,6 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 /* Icon Imports */
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
@@ -21,6 +22,11 @@ main {
 
 main figure {
     text-align: center;
+}
+
+h1 {
+    font-family: Schoolbell;
+    font-size: 36px;
 }
 
 figure img {
@@ -45,4 +51,23 @@ nav a {
 
 header {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 20px;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black
+}
+
+footer img {
+    height: 20px;
+    padding: 0 5px;
 }
