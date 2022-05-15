@@ -1,13 +1,45 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Icon Imports */
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+html {
+    font-family: 'Open Sans';
+}
+
 main {
     border: 1px rgb(207, 207, 207) solid;
     border-radius: 10px;
     background-color: rgb(236, 236, 236);
-    margin: 50px;
-    padding: 20px;
+    margin: 0 50px;
+    padding: 0 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px;
+    padding-bottom: 10px;
+    /* border: 5px red solid; */
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
 }
 
 header {
     text-align: center;
-    border: 5px red solid;
+    /* border: 5px red solid; */
 }
+
+figure img {
+    width: 40%;
+    border-radius: 10px;
+}
+
+
 
