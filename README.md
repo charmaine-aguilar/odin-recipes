@@ -8,5 +8,5 @@ This is the first project from The Odin Project that showcases applications of H
 [Here is the live preview of the project.](https://charmaine-aguilar.github.io/odin-recipes/) 
 
 ## Preview
-![Main Menu](https://i.imgur.com/MWiBYq4.png)
+![Main Menu](https://i.imgur.com/ifu9vyn.png)
 ![One of the recipe page](https://i.imgur.com/V2vvQw0.png)
