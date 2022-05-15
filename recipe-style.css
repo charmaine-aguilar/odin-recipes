@@ -11,19 +11,18 @@ html {
 }
 
 main {
-    border: 1px rgb(207, 207, 207) solid;
+    border: 3px black solid;
     border-radius: 10px;
     background-color: rgb(236, 236, 236);
-    margin: 0 50px;
-    padding: 0 50px;
+    margin: 0 20%;
+    padding: 10px 40px 20px 40px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 20px 70px;
-    padding-bottom: 10px;
-    /* border: 5px red solid; */
+    margin: 20px 20%;
+    padding: 0 20px;
 }
 
 nav a {
@@ -33,7 +32,6 @@ nav a {
 
 header {
     text-align: center;
-    /* border: 5px red solid; */
 }
 
 figure img {
