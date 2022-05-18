@@ -42,9 +42,10 @@ header p {
 }
 
 #food-recipes {
+    width: fit-content;
+    margin: 0 auto;
     list-style-type: none;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 40px 0;
 }
@@ -92,6 +93,21 @@ header p {
 }
 
 /* Media Queries */
+@media (max-width: 1405px) {
+    #food-recipes {
+        width: 70%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1357px) {
+    #food-recipes {
+        width: 70%;
+        justify-content: center;
+    }
+}
+
+
 @media (max-width: 900px) {
     header {
         flex-direction: column;
@@ -103,7 +119,11 @@ header p {
 
     header h1 {
         font-size: 4rem;
-    }   
+    }
+
+    #food-recipes {
+        justify-content: center;
+    }
 }
 
 footer {
